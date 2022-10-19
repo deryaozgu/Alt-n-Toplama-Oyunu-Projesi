@@ -1,29 +1,25 @@
 # Altın Toplama Oyunu Projesi
  Arama algoritmalarının birbirlerine göre üstünlüklerini gözlemlenmektedir
 ALTIN TOPLAMA OYUNU PROJESİ
-Derya ÖZGÜ,Mehmet KIYAK
-BilgisayarMühendisliğiBölümü
-KocaeliÜniversitesi
-180201115@kocaeli.edu.tr, 180201135@kocaeli.edu.tr
-
-
+Derya ÖZGÜ,Mehmet KIYAK<br>
+Bilgisayar Mühendisliği Bölümü/KocaeliÜniversitesi
 
 
  
-Özet
+<h5>Özet</h5>
 Proje dört oyuncu (A,B,C,D) tarafından oynanmaktadır. Oyunda kullanıcılar kendilerine en yakın kutu içerisindeki altınları hedefleyerek hamle yapmaktadır. Oyunculara göre hedef ve hamle maliyetleri değiştirmektedir. 
 
 Oyuncularda bulunan altın miktarı 0 (sıfır) olduğunda veya alanda ki kutularda altın kalmadığında bitmektedir. Oyunun sonunda kullanıcıların hamle ve altın skorları gösterilemektedir.
 
-1.	Giriş
+<h5>1.	Giriş</h5>
 Program ilk çalışma esnasında kullanıcıdan oyun tahtası için tahta boyutu, karelerin yüzde (%) kaçında altın olacak ve bunların yüzde (%) kaçı gizli olacak, kullanıcıların ilk oyuna başlama sırasında ne kadar altını olacak ve hamle başına adım sayısı istenmektedir.
 
 Ardından oyuncular (A,B,C,D) için ayrı ayrı hamle ve hedef maliyetini istemektedir. Ardından “Oyunu Başlat” butonuna tıklayarak oyunu başlatmaktadır.
 
-2.	Temel Bilgiler
+<h5>2.	Temel Bilgiler</h5>
 ProgramC# programlama dilinde geliştirilmiş olup, tümleşik geliştirme ortamı olarak “Microsoft Visual Studio Preview” kullanılmıştır.Akış diyagramı için draw.io online diyagram yapma programı kullanılmıştır
 
-3.	Tasarım
+<h5>3.	Tasarım</h5>
 Altın Toplama Oyunu programının programlanma aşamaları altta belirtilen başlıklar altında açıklanmıştır. 
 
 3.1	Algoritma
@@ -120,20 +116,20 @@ Bu sınıf içerisindeki fonksiyonlar ve tanımları;
 
 3.2.6	Board.cs : Tahta sınıfı içerisinde oyun üzerinde oluşturulan kutuların hangi satır ve sütunda olduğunu hangi x y koordinatlarında olduğunu gizli mi değil mi olduğuna bakan ve belirtilen kutunun adını ve değerini tututmaktadır.
 
-4.	Sonuçlar
+<h5>4.	Sonuçlar</5>
 Programımız proje kapsamında istenilen tüm isterleri yerine getirememektedir. Program da sadece iki eksik mevcut bunları çözümlerine ulaştırma konusunda yeterli zamana sahip olamadık. Hata olarak oyun çok hızlı bir şekilde bitiyor ve eksik olarak oyun sonunda oyunculara ait skorlar gösteremedik.
 
-5.	Kaynakça
+<h5>5.	Kaynakça</h5>
 [1]	https://www.udemy.com/course/sifirdan-ileri-seviye-csharp-programlama/kaynağından c# diline ait gerekli terimler ve form işlemleri hakkında bilgiler edinildi.
 
 [2]	https://docs.microsoft.com/tr-tr/visualstudio/debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution?view=vs-2019kaynağından karşılaştığımız bazı hatalara karşı çözümler elde edildi.
 
-6. Denklemler
+<h5>6. Denklemler</h5>
 Program içerisinde matematiksel olarak çok büyük hesaplama bulunmadığı üzere küçük bazı denklemler kullanılmıştır.
 
 
 
-7. Ekran Görüntüleri
+<h5>7. Ekran Görüntüleri</h5>
 
  ![image](https://user-images.githubusercontent.com/73393361/196780169-cec38e82-23eb-457b-a3ff-a7efcc209d95.png)
 
