@@ -22,7 +22,7 @@ ProgramC# programlama dilinde geliştirilmiş olup, tümleşik geliştirme ortam
 <h5>3.	Tasarım</h5>
 Altın Toplama Oyunu programının programlanma aşamaları altta belirtilen başlıklar altında açıklanmıştır. 
 
-3.1	Algoritma
+<h6>3.1	Algoritma</h6>
 Program ilk çalışma esnasında kullanıcıdan oyun tahtası için tahta boyutu, karelerin yüzde (%) kaçında altın olacak ve bunların yüzde (%) kaçı gizli olacak, kullanıcıların ilk oyuna başlama sırasında ne kadar altını olacak ve hamle başına adım sayısı ve kullanıcıların hamle ve hedef maliyetleri istenmektedir. Ardından “Oyunu Başlat” butonuna tıklayarak oyunu başlatmaktadır.
 
 Oyun başladıktan sonra “Oyna” butonuna her tıklanmasında önce A kullanıcısı ardından B, C ve D kullanıcıları sırayla hamle yapmaktadır. Kullanıcılar hamle yapmadan önce kendisine en yakın altın karesini hedefleyerek ileri, geri, aşağı ve yukarı olacak şekilde hareket etmektedir. Hamle ve hedeflemelerde kullanıcı adına göre belirlenen maliyetler kullanıcıdan tahsil edilmektedir.
@@ -39,7 +39,7 @@ Oyun bu şekilde kullanıcılarda altın tükenene kadar ve hatta tahta da altı
 
 3-	GameStartForm.cs: Kullanıcı tarafından istenilen oyun ayarlarından sonra “GameStartForm” formu çalışarak öncelikle tahtanı ve tahta üzerindeki kareler oluşturuluyor ve üzerine belirtilen miktarlarda altınlar yerleştiriliyor oyun sahnesini hazırlandıktan sonra oyun oynanmaktadır. kullanıcıdan ad soyad, eposta, doğum tarihi ve şifre istenilmektedir. Oyun sırasında altınlar bitene kadar bu form ekranı oyun sahnesi olarak açık kalıyor . Oyun sonunda skorlar gösterilip  oyun sona eriyor.
 
-3.2	Kullanılan Sınıflar ve Fonksiyonlar
+<h6>3.2	Kullanılan Sınıflar ve Fonksiyonlar</h6>
 
 3.2.1	GameSettingsForm.cs : İçerisindeki değişkenler kullanıcıdan alınan değerlere göre doldurulmaktadır.
 
@@ -116,7 +116,7 @@ Bu sınıf içerisindeki fonksiyonlar ve tanımları;
 
 3.2.6	Board.cs : Tahta sınıfı içerisinde oyun üzerinde oluşturulan kutuların hangi satır ve sütunda olduğunu hangi x y koordinatlarında olduğunu gizli mi değil mi olduğuna bakan ve belirtilen kutunun adını ve değerini tututmaktadır.
 
-<h5>4.	Sonuçlar</5>
+<h5>4.	Sonuçlar</h5>
 Programımız proje kapsamında istenilen tüm isterleri yerine getirememektedir. Program da sadece iki eksik mevcut bunları çözümlerine ulaştırma konusunda yeterli zamana sahip olamadık. Hata olarak oyun çok hızlı bir şekilde bitiyor ve eksik olarak oyun sonunda oyunculara ait skorlar gösteremedik.
 
 <h5>5.	Kaynakça</h5>
