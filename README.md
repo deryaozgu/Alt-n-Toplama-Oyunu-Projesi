@@ -31,17 +31,17 @@ Oyun bu şekilde kullanıcılarda altın tükenene kadar ve hatta tahta da altı
 
 
 
-1-	Main.cs : Programın başlamasını sağlayan sınıftır. İçerisinde “GameSettingsForm” formunu çalıştırarak oyunu başlamaktadır.
+<h6>1-	Main.cs :</h6> Programın başlamasını sağlayan sınıftır. İçerisinde “GameSettingsForm” formunu çalıştırarak oyunu başlamaktadır.
 
 
-2-	GameSettingsForm.cs:Bu formekranında kullanıcıdan oyun tahtası için tahta boyutu, karelerin yüzde (%) kaçında altın olacak ve bunların yüzde (%) kaçı gizli olacak, kullanıcıların ilk oyuna başlama sırasında ne kadar altını olacak ve hamle başına adım sayısı ve kullanıcılar için ise kullanıcıların hamle ve hedef maliyetleri istenmektedir.
+<h6>2-	GameSettingsForm.cs:</h6>Bu formekranında kullanıcıdan oyun tahtası için tahta boyutu, karelerin yüzde (%) kaçında altın olacak ve bunların yüzde (%) kaçı gizli olacak, kullanıcıların ilk oyuna başlama sırasında ne kadar altını olacak ve hamle başına adım sayısı ve kullanıcılar için ise kullanıcıların hamle ve hedef maliyetleri istenmektedir.
 
 
-3-	GameStartForm.cs: Kullanıcı tarafından istenilen oyun ayarlarından sonra “GameStartForm” formu çalışarak öncelikle tahtanı ve tahta üzerindeki kareler oluşturuluyor ve üzerine belirtilen miktarlarda altınlar yerleştiriliyor oyun sahnesini hazırlandıktan sonra oyun oynanmaktadır. kullanıcıdan ad soyad, eposta, doğum tarihi ve şifre istenilmektedir. Oyun sırasında altınlar bitene kadar bu form ekranı oyun sahnesi olarak açık kalıyor . Oyun sonunda skorlar gösterilip  oyun sona eriyor.
+<h6>3-	GameStartForm.cs:</h6> Kullanıcı tarafından istenilen oyun ayarlarından sonra “GameStartForm” formu çalışarak öncelikle tahtanı ve tahta üzerindeki kareler oluşturuluyor ve üzerine belirtilen miktarlarda altınlar yerleştiriliyor oyun sahnesini hazırlandıktan sonra oyun oynanmaktadır. kullanıcıdan ad soyad, eposta, doğum tarihi ve şifre istenilmektedir. Oyun sırasında altınlar bitene kadar bu form ekranı oyun sahnesi olarak açık kalıyor . Oyun sonunda skorlar gösterilip  oyun sona eriyor.
 
 <h6>3.2	Kullanılan Sınıflar ve Fonksiyonlar</h6>
 
-3.2.1	GameSettingsForm.cs : İçerisindeki değişkenler kullanıcıdan alınan değerlere göre doldurulmaktadır.
+<h6>3.2.1	GameSettingsForm.cs :</h6> İçerisindeki değişkenler kullanıcıdan alınan değerlere göre doldurulmaktadır.
 
 Bunları tanımlayacak olursak;
 
@@ -71,7 +71,7 @@ dHedef :D oyuncusunun hedef maliyetini tutmaktadır.
 
 Alınan değerlerden sonra “GameStartForm” formunun constructer fonksiyonuna değerler gönderilmektedir.
 
-3.2.2	GameStartForm.cs : Oyun bu form içerisinde gerçekleşiyor. Kullanıcılar, yollar ve tahta sınıfları içeriye dahil ediliyor.
+<h6>3.2.2	GameStartForm.cs :</h6> Oyun bu form içerisinde gerçekleşiyor. Kullanıcılar, yollar ve tahta sınıfları içeriye dahil ediliyor.
 Bu sınıf içerisindeki fonksiyonlar ve tanımları;
 
 1-	GameStartForm_Load : Bu fonksiyon içerisinde karelere gelecek altınların sayısı belirtilmektedir. Ardından sırasıyla tahtayı ve karelerin içine altınları yerleştiren fonksiyonlar çağrılmaktadır.
@@ -108,13 +108,13 @@ Bu sınıf içerisindeki fonksiyonlar ve tanımları;
 
 17-	Siraki_Kim(string oynayan) : Hamle yapıldıktan sonra sıranın hangi kullanıcıda olduğunu bulup döndüren fonksiyondur.
 
-3.2.3	Range.cs : Bu sınıf içerisinde uzaklık, kazanç, x koordinatı ve y koordinatı değişkenleri yer almaktadır. Bize hedefin ne kadar uzaklıkta ve ne kadar kazanca sahip olduğunu ayrıca x ve y koordinatlarını vermektedir.
+<h6>3.2.3	Range.cs :</h6> Bu sınıf içerisinde uzaklık, kazanç, x koordinatı ve y koordinatı değişkenleri yer almaktadır. Bize hedefin ne kadar uzaklıkta ve ne kadar kazanca sahip olduğunu ayrıca x ve y koordinatlarını vermektedir.
 
-3.2.4	Player.cs : Oyuncu sınıfında oyuncuya gerekli bazı bilgiler tutulmaktadır. Bunlar; oyuncu adı, harcanan altın, toplanan altın, kalan altın, adım sayısı, hedefe varılıp varılmadığı gibi değişkenleri ve fonksiyonları tutmaktadır.
+<h6>3.2.4	Player.cs :</h6> Oyuncu sınıfında oyuncuya gerekli bazı bilgiler tutulmaktadır. Bunlar; oyuncu adı, harcanan altın, toplanan altın, kalan altın, adım sayısı, hedefe varılıp varılmadığı gibi değişkenleri ve fonksiyonları tutmaktadır.
 
-3.2.5	Way.cs : Yol sınıfı sadece içerisinde gidilecek hedefin hangi satırda ve sütunda olduğunu tutan iki değişkeni barındırmaktadır.
+<h6>3.2.5	Way.cs :</h6> Yol sınıfı sadece içerisinde gidilecek hedefin hangi satırda ve sütunda olduğunu tutan iki değişkeni barındırmaktadır.
 
-3.2.6	Board.cs : Tahta sınıfı içerisinde oyun üzerinde oluşturulan kutuların hangi satır ve sütunda olduğunu hangi x y koordinatlarında olduğunu gizli mi değil mi olduğuna bakan ve belirtilen kutunun adını ve değerini tututmaktadır.
+<h6>3.2.6	Board.cs :</h6> Tahta sınıfı içerisinde oyun üzerinde oluşturulan kutuların hangi satır ve sütunda olduğunu hangi x y koordinatlarında olduğunu gizli mi değil mi olduğuna bakan ve belirtilen kutunun adını ve değerini tututmaktadır.
 
 <h5>4.	Sonuçlar</h5>
 Programımız proje kapsamında istenilen tüm isterleri yerine getirememektedir. Program da sadece iki eksik mevcut bunları çözümlerine ulaştırma konusunda yeterli zamana sahip olamadık. Hata olarak oyun çok hızlı bir şekilde bitiyor ve eksik olarak oyun sonunda oyunculara ait skorlar gösteremedik.
@@ -126,7 +126,6 @@ Programımız proje kapsamında istenilen tüm isterleri yerine getirememektedir
 
 <h5>6. Denklemler</h5>
 Program içerisinde matematiksel olarak çok büyük hesaplama bulunmadığı üzere küçük bazı denklemler kullanılmıştır.
-
 
 
 <h5>7. Ekran Görüntüleri</h5>
